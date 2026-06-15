@@ -1,10 +1,10 @@
-# DayBook
+# DailyBytes
 
-DayBook is a secure and user-friendly personal journaling app built with the MERN stack (MongoDB, Express, React, and Node.js). It allows users to easily log in, write, view, and manage their daily entries while ensuring a seamless, distraction-free, and private experience. Prioritizing simplicity, security, and privacy, DayBook helps you document your thoughts and memories with confidence and peace of mind.
+DailyBytes is a secure and user-friendly personal journaling app built with the MERN stack (MongoDB, Express, React, and Node.js). It allows users to easily log in, write, view, and manage their daily entries while ensuring a seamless, distraction-free, and private experience. Prioritizing simplicity, security, and privacy,DailyBytes helps you document your thoughts and memories with confidence and peace of mind.
 
-[Live Demo](https://daybook-mern.vercel.app)
+[Live Demo]To be added after deployment
 
-Head over to the [Vercel deployment branch](https://github.com/thenileshnishad/daybook/tree/deployment) if you want to see how the deployment is set up (you can find the relevant details in their `package.json` file).
+Head over to the [Vercel deployment branch](https://github.com/VanshikaVarshney03/DailyBytes) if you want to see how the deployment is set up (you can find the relevant details in their `package.json` file).
 
 ---
 
@@ -47,7 +47,7 @@ Head over to the [Vercel deployment branch](https://github.com/thenileshnishad/d
 The repository is divided into two main directories:
 
 ```
-daybook/
+DailyBytes/
 ├── backend/                                # All the server files
 │   ├── src/                                # Source code for the backend
 │   │   ├── config/                         # Configuration file for database
@@ -59,11 +59,11 @@ daybook/
 │   │   ├── middleware/                     # Middleware file for authentication
 │   │   │   └── authMiddleware.js           # Middleware for authentication and authorization
 │   │   ├── models/                         # Database models (schema definitions)
-│   │   │   ├── entryModel.js               # Defines the structure of daybook entries
+│   │   │   ├── entryModel.js               # Defines the structure of DailyBytes entries
 │   │   │   └── userModel.js                # Defines the structure of user data
 │   │   ├── routes/                         # Files for API routes for the backend
 │   │   │   ├── authRoutes.js               # Routes related to authentication
-│   │   │   ├── entryRoutes.js              # Routes for daybook entry operations
+│   │   │   ├── entryRoutes.js              # Routes for DailyBytes entry operations
 │   │   │   └── userRoutes.js               # Routes for user-related operations
 │   │   ├── utils/                          # Utility/helper functions
 │   │   │   └── generateToken.js            # To generate JSON Web Tokens (JWTs) and response cookies
@@ -75,7 +75,7 @@ daybook/
 │
 ├── frontend/                               # React.js client-side code
 │   ├── public/                             # Static assets served directly by the browser
-│   │   ├── daybook-image.jpg               # Application banner image
+│   │   ├── DailyBytes-image.jpg               # Application banner image
 │   │   └── logo.svg                        # Application logo for direct serving
 │   ├── src/                                # React application's source code
 │   │   ├── assets/                         # Static processed assets
@@ -110,7 +110,7 @@ daybook/
 │   │   ├── redux/                          # Redux state management files
 │   │   │   ├── api/                        # Redux Toolkit Query API slices
 │   │   │   │   ├── apiSlice.js             # Base API slice configuration
-│   │   │   │   ├── entriesApiSlice.js      # API slice for daybook entries
+│   │   │   │   ├── entriesApiSlice.js      # API slice for DailyBytes entries
 │   │   │   │   └── usersApiSlice.js        # API slice for user data
 │   │   │   ├── features/                   # Redux feature slices
 │   │   │   │   └── userSlice.js            # Redux slice for user state management
@@ -148,9 +148,9 @@ Follow these steps to set up the project locally:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/thenileshnishad/daybook.git
+   git clone https://github.com/VanshikaVarshney03/DailyBytes.git
 
-   cd daybook/backend
+   cd DailyBytes/backend
    ```
 
 2. **Install dependencies:**
@@ -180,7 +180,7 @@ Follow these steps to set up the project locally:
 
 ### Frontend Setup
 
-1. **Navigate to the root directory (daybook, not backend):**
+1. **Navigate to the root directory (DailyBytes, not backend):**
 
    ```bash
    cd frontend
@@ -234,7 +234,7 @@ The app should now be running locally. `By default`:
 
 ## 6. Contributing
 
-Contributions are welcome! If you'd like to improve DayBook, please follow these steps:
+Contributions are welcome! If you'd like to improve DailyBytes, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch:
